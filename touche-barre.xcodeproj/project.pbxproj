@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8032870205912A700AEA812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E803286F205912A700AEA812 /* AppDelegate.m */; };
+		E8032872205912A700AEA812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8032871205912A700AEA812 /* Assets.xcassets */; };
+		E8032875205912A700AEA812 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8032873205912A700AEA812 /* MainMenu.xib */; };
+		E8032878205912A700AEA812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8032877205912A700AEA812 /* main.m */; };
+		E8032883205912A800AEA812 /* touche_barreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8032882205912A800AEA812 /* touche_barreTests.m */; };
+		E803288E205912A800AEA812 /* touche_barreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E803288D205912A800AEA812 /* touche_barreUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E803287F205912A800AEA812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8032863205912A700AEA812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E803286A205912A700AEA812;
+			remoteInfo = "touche-barre";
+		};
+		E803288A205912A800AEA812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8032863205912A700AEA812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E803286A205912A700AEA812;
+			remoteInfo = "touche-barre";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E803286B205912A700AEA812 /* touche-barre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "touche-barre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E803286E205912A700AEA812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E803286F205912A700AEA812 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8032871205912A700AEA812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8032874205912A700AEA812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E8032876205912A700AEA812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8032877205912A700AEA812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8032879205912A700AEA812 /* touche_barre.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = touche_barre.entitlements; sourceTree = "<group>"; };
+		E803287E205912A800AEA812 /* touche-barreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "touche-barreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8032882205912A800AEA812 /* touche_barreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touche_barreTests.m; sourceTree = "<group>"; };
+		E8032884205912A800AEA812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8032889205912A800AEA812 /* touche-barreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "touche-barreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E803288D205912A800AEA812 /* touche_barreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touche_barreUITests.m; sourceTree = "<group>"; };
+		E803288F205912A800AEA812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8032868205912A700AEA812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E803287B205912A800AEA812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8032886205912A800AEA812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8032862205912A700AEA812 = {
+			isa = PBXGroup;
+			children = (
+				E803286D205912A700AEA812 /* touche-barre */,
+				E8032881205912A800AEA812 /* touche-barreTests */,
+				E803288C205912A800AEA812 /* touche-barreUITests */,
+				E803286C205912A700AEA812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E803286C205912A700AEA812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E803286B205912A700AEA812 /* touche-barre.app */,
+				E803287E205912A800AEA812 /* touche-barreTests.xctest */,
+				E8032889205912A800AEA812 /* touche-barreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E803286D205912A700AEA812 /* touche-barre */ = {
+			isa = PBXGroup;
+			children = (
+				E803286E205912A700AEA812 /* AppDelegate.h */,
+				E803286F205912A700AEA812 /* AppDelegate.m */,
+				E8032871205912A700AEA812 /* Assets.xcassets */,
+				E8032873205912A700AEA812 /* MainMenu.xib */,
+				E8032876205912A700AEA812 /* Info.plist */,
+				E8032877205912A700AEA812 /* main.m */,
+				E8032879205912A700AEA812 /* touche_barre.entitlements */,
+			);
+			path = "touche-barre";
+			sourceTree = "<group>";
+		};
+		E8032881205912A800AEA812 /* touche-barreTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8032882205912A800AEA812 /* touche_barreTests.m */,
+				E8032884205912A800AEA812 /* Info.plist */,
+			);
+			path = "touche-barreTests";
+			sourceTree = "<group>";
+		};
+		E803288C205912A800AEA812 /* touche-barreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E803288D205912A800AEA812 /* touche_barreUITests.m */,
+				E803288F205912A800AEA812 /* Info.plist */,
+			);
+			path = "touche-barreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E803286A205912A700AEA812 /* touche-barre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8032892205912A800AEA812 /* Build configuration list for PBXNativeTarget "touche-barre" */;
+			buildPhases = (
+				E8032867205912A700AEA812 /* Sources */,
+				E8032868205912A700AEA812 /* Frameworks */,
+				E8032869205912A700AEA812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "touche-barre";
+			productName = "touche-barre";
+			productReference = E803286B205912A700AEA812 /* touche-barre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E803287D205912A800AEA812 /* touche-barreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8032895205912A800AEA812 /* Build configuration list for PBXNativeTarget "touche-barreTests" */;
+			buildPhases = (
+				E803287A205912A800AEA812 /* Sources */,
+				E803287B205912A800AEA812 /* Frameworks */,
+				E803287C205912A800AEA812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8032880205912A800AEA812 /* PBXTargetDependency */,
+			);
+			name = "touche-barreTests";
+			productName = "touche-barreTests";
+			productReference = E803287E205912A800AEA812 /* touche-barreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8032888205912A800AEA812 /* touche-barreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8032898205912A800AEA812 /* Build configuration list for PBXNativeTarget "touche-barreUITests" */;
+			buildPhases = (
+				E8032885205912A800AEA812 /* Sources */,
+				E8032886205912A800AEA812 /* Frameworks */,
+				E8032887205912A800AEA812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E803288B205912A800AEA812 /* PBXTargetDependency */,
+			);
+			name = "touche-barreUITests";
+			productName = "touche-barreUITests";
+			productReference = E8032889205912A800AEA812 /* touche-barreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8032863205912A700AEA812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ThomasPucci;
+				TargetAttributes = {
+					E803286A205912A700AEA812 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E803287D205912A800AEA812 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E803286A205912A700AEA812;
+					};
+					E8032888205912A800AEA812 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E803286A205912A700AEA812;
+					};
+				};
+			};
+			buildConfigurationList = E8032866205912A700AEA812 /* Build configuration list for PBXProject "touche-barre" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8032862205912A700AEA812;
+			productRefGroup = E803286C205912A700AEA812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E803286A205912A700AEA812 /* touche-barre */,
+				E803287D205912A800AEA812 /* touche-barreTests */,
+				E8032888205912A800AEA812 /* touche-barreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8032869205912A700AEA812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8032872205912A700AEA812 /* Assets.xcassets in Resources */,
+				E8032875205912A700AEA812 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E803287C205912A800AEA812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8032887205912A800AEA812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8032867205912A700AEA812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8032878205912A700AEA812 /* main.m in Sources */,
+				E8032870205912A700AEA812 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E803287A205912A800AEA812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8032883205912A800AEA812 /* touche_barreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8032885205912A800AEA812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E803288E205912A800AEA812 /* touche_barreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8032880205912A800AEA812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E803286A205912A700AEA812 /* touche-barre */;
+			targetProxy = E803287F205912A800AEA812 /* PBXContainerItemProxy */;
+		};
+		E803288B205912A800AEA812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E803286A205912A700AEA812 /* touche-barre */;
+			targetProxy = E803288A205912A800AEA812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8032873205912A700AEA812 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8032874205912A700AEA812 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8032890205912A800AEA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E8032891205912A800AEA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E8032893205912A800AEA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "touche-barre/touche_barre.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "touche-barre/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8032894205912A800AEA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "touche-barre/touche_barre.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "touche-barre/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8032896205912A800AEA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "touche-barreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/touche-barre.app/Contents/MacOS/touche-barre";
+			};
+			name = Debug;
+		};
+		E8032897205912A800AEA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "touche-barreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/touche-barre.app/Contents/MacOS/touche-barre";
+			};
+			name = Release;
+		};
+		E8032899205912A800AEA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "touche-barreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "touche-barre";
+			};
+			name = Debug;
+		};
+		E803289A205912A800AEA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "touche-barreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "touche-barre";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8032866205912A700AEA812 /* Build configuration list for PBXProject "touche-barre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8032890205912A800AEA812 /* Debug */,
+				E8032891205912A800AEA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8032892205912A800AEA812 /* Build configuration list for PBXNativeTarget "touche-barre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8032893205912A800AEA812 /* Debug */,
+				E8032894205912A800AEA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8032895205912A800AEA812 /* Build configuration list for PBXNativeTarget "touche-barreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8032896205912A800AEA812 /* Debug */,
+				E8032897205912A800AEA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8032898205912A800AEA812 /* Build configuration list for PBXNativeTarget "touche-barreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8032899205912A800AEA812 /* Debug */,
+				E803289A205912A800AEA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8032863205912A700AEA812 /* Project object */;
+}
