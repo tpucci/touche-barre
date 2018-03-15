@@ -13,6 +13,8 @@
 		E8032878205912A700AEA812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8032877205912A700AEA812 /* main.m */; };
 		E8032883205912A800AEA812 /* touche_barreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8032882205912A800AEA812 /* touche_barreTests.m */; };
 		E803288E205912A800AEA812 /* touche_barreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E803288D205912A800AEA812 /* touche_barreUITests.m */; };
+		E803289E2059145200AEA812 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E803289D2059145200AEA812 /* DFRFoundation.framework */; };
+		E80328EB205AB2AE00AEA812 /* TouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E80328EA205AB2AE00AEA812 /* TouchButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,11 @@
 		E8032889205912A800AEA812 /* touche-barreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "touche-barreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E803288D205912A800AEA812 /* touche_barreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touche_barreUITests.m; sourceTree = "<group>"; };
 		E803288F205912A800AEA812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E803289B2059133800AEA812 /* TouchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBar.h; sourceTree = "<group>"; };
+		E803289D2059145200AEA812 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
+		E80328EA205AB2AE00AEA812 /* TouchButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchButton.m; sourceTree = "<group>"; };
+		E80328EC205AB2CA00AEA812 /* TouchButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchButton.h; sourceTree = "<group>"; };
+		E80328ED205AB2FB00AEA812 /* TouchDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E803289E2059145200AEA812 /* DFRFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,7 @@
 				E8032881205912A800AEA812 /* touche-barreTests */,
 				E803288C205912A800AEA812 /* touche-barreUITests */,
 				E803286C205912A700AEA812 /* Products */,
+				E803289C2059145200AEA812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +113,10 @@
 				E8032876205912A700AEA812 /* Info.plist */,
 				E8032877205912A700AEA812 /* main.m */,
 				E8032879205912A700AEA812 /* touche_barre.entitlements */,
+				E803289B2059133800AEA812 /* TouchBar.h */,
+				E80328EA205AB2AE00AEA812 /* TouchButton.m */,
+				E80328EC205AB2CA00AEA812 /* TouchButton.h */,
+				E80328ED205AB2FB00AEA812 /* TouchDelegate.h */,
 			);
 			path = "touche-barre";
 			sourceTree = "<group>";
@@ -124,6 +137,14 @@
 				E803288F205912A800AEA812 /* Info.plist */,
 			);
 			path = "touche-barreUITests";
+			sourceTree = "<group>";
+		};
+		E803289C2059145200AEA812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E803289D2059145200AEA812 /* DFRFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80328EB205AB2AE00AEA812 /* TouchButton.m in Sources */,
 				E8032878205912A700AEA812 /* main.m in Sources */,
 				E8032870205912A700AEA812 /* AppDelegate.m in Sources */,
 			);
@@ -416,6 +438,10 @@
 				CODE_SIGN_ENTITLEMENTS = "touche-barre/touche_barre.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = "touche-barre/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barre";
@@ -430,6 +456,10 @@
 				CODE_SIGN_ENTITLEMENTS = "touche-barre/touche_barre.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				INFOPLIST_FILE = "touche-barre/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.bam.touche-barre";
